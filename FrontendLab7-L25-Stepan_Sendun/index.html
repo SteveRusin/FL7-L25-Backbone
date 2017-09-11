@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <style>
+        #container {
+            padding: 25px;
+        }
+        
+        .candidat {
+            border: 2px solid grey;
+            height: 100px;
+            width: 20%;
+            margin-bottom: -2px;
+            padding: 0 10px;
+        }
+        
+        .candidat div {
+            margin-top: 40px;
+            float: left;
+            
+        }
+        
+        .candidat button {
+            float: right;
+            margin-top: 35px;
+        }
+        
+        .candidat-row {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border-bottom: 2px solid grey;
+        }
+        
+        .button {
+            margin-left: 10px;
+        }
+        
+        #form {
+            padding: 25px;
+        }
+        
+        #form input {
+            margin-bottom: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+    </div>
+    <div id="form">
+        <input type="text" class="form-control" placeholder="name">
+        <input type="text" class="form-control" placeholder="surname">
+        <input type="text" class="form-control" placeholder="rating">
+        <button class="btn btn-primary">Push</button>
+    </div>
+
+    <script src="underscore.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="backbone.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
